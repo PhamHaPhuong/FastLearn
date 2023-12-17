@@ -1,0 +1,164 @@
+:root{
+	--color1: #F4CCD7;
+	--color2: #FBDBE4;
+	--color3: #313C5D;
+	--color4: #FFF8F8;
+	--color5: #C51C4C;
+
+
+}
+/* .show{
+    padding: 0 20%;
+} */
+.tab {
+  border: 1px solid var(--color1);
+  float: left;
+  width: 100%;
+  height: 100%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.tab .tablinks {
+  display: block;
+  color: var(--color3);
+  border-radius: 30px;
+  display: inline-block;
+  padding-top: 18px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  padding: 10px 20px;
+}
+
+.tab .tablinks:hover {
+  background-color: var(--color1);
+}
+
+.tab .tablinks.active {
+  color: #C51C4C;
+}
+
+.tabcontent {
+  float: left;
+   width: 100%;
+   padding: 0 ;
+  border-left: none;
+  background-color: white;
+  
+}
+.topnav {
+    overflow: hidden;
+    /* padding: 20px; */
+  }
+  .dad{
+    padding: 5% 0;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  .dad::after{
+    display: table;
+    content: "";
+    clear: both;
+    width: 100%;
+  }
+  .son1{
+    width: 40%;
+    float:left;
+  }
+  .son2{
+    width: 60%;
+    float: left;
+  }
+  
+  
+  .topnav .search-container {
+    float: left;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: left;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-left: 16px;
+    font-size: 17px;
+    background: var(--color1);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: var(--color1);
+  }
+  .topnav input{
+    background-color: var(--color1);
+    width: 50%;
+    border-radius: 0px 20px 20px 0;
+  }
+  .tronang{
+    display: inline-block;
+    padding-left: 3%;
+  }
+  .but{
+    background-color: var(--color1);
+    border:none;
+    width: 156px;
+    height: 40px;
+    border-radius:20px;
+    margin: 20px;
+    top:0;
+  }
+  .roww::after{
+    content:"";
+    display: table;
+    clear: both;
+    max-width: 100%;
+  }
+  .col{
+    width: 30%;
+    float: left;
+    height: 280px;
+    background-color: var(--color4);
+    border-radius: 30px;
+  }
+  .col div{
+    padding:20px;
+  }
+  .col h4{
+    color: var(--color5);
+  }
+  .col p{
+    font-size: 14px;
+  }
+  .col img{
+    border-radius: 30px 30px 0 0 ;
+  }
+  .roww{
+    margin-bottom: 10%;
+  }
+  span{
+    margin: 0 5px;
+  }
+  .son2 button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--color3);
+    color: white;
+    text-align: center;
+  }
+  .son2 button:hover{
+    color: var(--color3);
+    background-color: var(--color4);
+
+  }

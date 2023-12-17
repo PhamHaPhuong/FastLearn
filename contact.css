@@ -1,0 +1,40 @@
+.bo::after{
+    display: table;
+    content: "";
+    clear: both;
+    max-width: 100%;
+}
+.son{
+    width: 47.5%;
+    float: left;
+    
+}
+.roww::after{
+    content: "";
+    display: table;
+    clear: both;
+    max-width: 100%;
+}
+.col1{
+    width: 20%;
+    float: left;
+}
+.col2{
+    width:80%;
+    float: left;
+}
+.col1 i{
+    font-size: 40px;
+    padding: 10% 30%;
+    color: var(--color1);
+}
+.roww{
+    padding: 5% 0;
+}
+iframe{
+    width: 100%;
+    height: 343px;
+}
+.bo{
+    border-bottom: 1px solid black;
+}

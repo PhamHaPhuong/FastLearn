@@ -1,0 +1,74 @@
+body{
+    background-color: #f8f8ea;
+}
+.tren{
+    padding: 20px 10%;
+    background-color: var(--color3);
+    color: white;
+}
+.tren a{
+    color: white;
+
+}
+.tren i{
+    color: white;
+    margin: 0 10px;
+}
+
+.son1{
+    width: 90%;
+    margin: 5%;
+}
+.mom{
+    margin: 5% 0;
+}
+ul li{
+    padding: 0 20px;
+    display: inline-block;
+
+}
+ul a{
+    color: black;
+}
+ul a:hover{
+    color: aliceblue;
+}
+ul{
+    padding: 20px;
+    list-style-type: none;
+}
+.bo::after{
+    content: "";
+    display: table;
+    clear: both;
+    max-width: 100%;
+}
+.con1{
+    width: 35%;
+    float: left;
+    margin-top: 5%;
+}
+.con2{
+    width: 65%;
+    float: left;
+}
+.me::after{
+    content: "";
+    display: table;
+    clear: both;
+    max-width: 100%;
+}
+.dad{
+    width: 47.5%;
+    float:left;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 3%;
+}
+.gv {
+    margin: 20px 5%;
+    
+  }
+.tong{
+    padding: 5% 15%
+}

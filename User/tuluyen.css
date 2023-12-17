@@ -1,0 +1,56 @@
+.mom::after{
+    content: "";
+    display: table;
+    clear: both;
+    max-width: 100%;
+
+}
+.son1{
+    float: left;
+    width: 30%;
+}
+.son2{
+    width: 70%;
+    float: left;
+}
+.son1 select{
+    margin: 10px 10% 10px 30%;
+    border-radius: 8px;
+    padding-left:20px ;
+}
+option{
+    width: 100px;
+    height: 40px;
+}
+.mom{
+    padding: 6% 0;
+}
+.row:active{
+    content: "";
+    display: table;
+    clear: both;
+    max-width: 100%;
+}
+.col{
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 2%;
+    height: 260px;
+    margin-bottom : 10% ;
+}
+
+.row{
+    padding: 5% 10% 5% 2% ;
+}
+.col .tron1 i{
+    font-size: 37px;
+    color: var(--color1);
+    margin: 15% 0 10% 0;
+}
+.col .tron2 i{
+    display: inline-block;
+    font-size: 22px;
+    color: var(--color1);
+}

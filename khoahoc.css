@@ -1,0 +1,130 @@
+:root{
+	--color1: #F4CCD7;
+	--color2: #FBDBE4;
+	--color3: #313C5D;
+	--color4: #FFF8F8;
+	--color5: #C51C4C;
+
+
+}
+.mySlides {
+    padding-top: 5%;
+    display: none
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  margin-left: -12px;
+  margin-right: -12px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 10px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 10px;
+}
+
+.prev:hover, .next:hover {
+  background-color: var(--color2);
+  color: black;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 30px;
+  left: 10%;
+  width: 100%;
+  text-align: left;
+}
+.text button{
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: var(--color4);
+}
+.text button:hover{
+    background-color: var(--color1);
+}
+.text div{
+    font-size: 36px;
+    color: var(--color1);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.duoi{
+    padding: 20px 9%;
+}
+.hang::after{
+  content: "";
+  display: table;
+  clear: both;
+  max-width: 100%;
+}
+.cot{
+  width: 30%;
+  float: left;
+}
+.cot img{
+  border-radius: 42px;
+}
+.duoi button {
+  float: right;
+  background-color: var(--color1);
+  border: none;
+  margin: 20px 3% 30px 0;
+}
+.cot p{
+  margin: 18px 0;
+}

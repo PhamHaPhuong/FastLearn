@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tự luyện</title>
+    <link rel="stylesheet" href="chung.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="tuluyen.css">
+</head>
+<body>
+    <div class="header">
+        <div class="top-nav">
+       <div>
+            <div class="trong">
+               <i class="fa fa-phone" aria-hidden="true"></i>
+               <span>+8568457983</span>
+           </div> 
+           <div class="trong" style="float: right;">
+            <div class="dropdown-i">
+                <span><i style="font-size: 27px;" class="fa fa-user-circle" aria-hidden="true"></i>
+              </span>
+                <div class="dropdown-con">
+                    <a href="hoso.php"><div class="">
+                    Hồ sơ của bạn
+                </div></a>
+                <a href="../doipass.php"><div class="">
+                    Thay đổi mật khẩu
+                </div></a>
+                <a href="#"><div class="">
+                    Cài đặt
+                </div></a>
+                <a href="../logout.php"><div class="">
+                    Đăng xuất
+                </div></a>
+                </div>
+              </div>
+           </div>
+       </div>	
+   </div>
+   <div style="background-color: red;">
+       <div class="center-nav">
+           <div class="trong">
+               <img src="anh/logo.png" alt="" width="45px" height="58px">
+           </div>
+           <div class="trong" style="padding: 21px 20%;"> 
+               <div class="box">
+                   <form class="sbox" action="/search" method="get">
+                   <input class="stext" type="text" name="q" placeholder="Tìm khóa học, giáo viên">
+                   <a class="sbutton" type="submit" href="javascript:void(0);">
+                   <i class="fa fa-search"></i>
+                   </a>
+                   </form>
+                   </div> 
+           </div>
+           <div class="trong" style="padding: 21px 0 21px 20%;">
+               <a>
+                   <i style="font-size: 30px; margin-right: 20px;" class="fa fa-shopping-cart" aria-hidden="true"></i><span>Khóa học của bạn</span>
+               </a>
+           </div>
+
+       </div>
+   </div>
+   <div>
+       <div class="menu">
+           <div class="dropdown">
+                   <a href="kdkn.php" class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i>CÁC KHÓA HỌC</a>
+           </div>
+           <a href="home.php" >GIỚI THIỆU</a>
+           <a href="giaovien.php">GIÁO VIÊN</a>
+               <div class="dropdown">
+                   <a class="dropbtn" style="background-color: white; color: black;">TỰ LUYỆN<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                 </div>
+
+           <a href="contact.php">LIÊN HỆ</a>
+       </div>
+   </div>
+   </div> 
+   <div>
+        <div class="mom">
+            <div class="son1">
+                <select style="width: 60%; height: 40px;" name="chon" id="">
+                    <b><option value="0"><h1>Chọn khóa học</h1></option></b>
+                    <option value="1">Kinh doanh khởi nghiệp</option>
+                    <option value="2">Quản lý</option>
+                    <option value="3">Công nghệ thông tin</option>
+                    <option value="3">Ngoại ngữ</option>
+                </select><br>
+                <select style="width: 60%; height: 40px;" name="chon" id="">
+                    <option value="0">Cấp độ</option>
+                    <option value="1">Dễ</option>
+                    <option value="2">Trung bình</option>
+                    <option value="3">Khó</option>
+                </select><br>
+            </div>
+            <div class="son2">
+                <div style="padding: 0 0 0 45%;">
+                    <select style="width: 60%; height: 40px; border-radius: 10px; padding: 0 20px;" name="chon" id="">
+                        <option value="0">Sắp xếp các bài mới nhất</option>
+                        <option value="1">Lượt download nhiều nhất</option>
+                        <option value="2">Sắp xếp theo các khóa học </option>
+                    </select><br>
+                </div>
+                <div class="row">
+                    <div class="col" style="margin-right: 5%;">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Kinh Doanh Online</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                    <div class="col" style="margin-right: 5%;">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Quản trị Doanh nghiệp</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Khởi nghiệp</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col" style="margin-right: 5%;">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Kĩ năng Sale</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                    <div class="col" style="margin-right: 5%;">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Nghiệp vụ luật sư</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Nghiệp vụ luật sư</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col" style="margin-right: 5%;">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Lập trình Front-end</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                    <div class="col" style="margin-right: 5%;">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Mạng máy tính</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Tester-Kiểm thử</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col" style="margin-right: 5%;">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Tiếng Anh</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                    <div class="col" style="margin-right: 5%;">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Tiếng Trung</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Tiếng Hàn</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col" style="margin-right: 5%;">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Nghiệp vụ kế toán</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                    <div class="col" style="margin-right: 5%;">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Kĩ năng mềm</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tron1" style="padding: 5% 10px; border-bottom: 1px solid black ;">
+                            <h3>Kĩ năng chăm sóc khách hàng</h3>
+                            <div style="text-align: center; padding: 8% 0 6% 0;"><i class="fa fa-folder-open-o" aria-hidden="true"></i></div>
+                        </div>
+                        <div class="tron2" style="padding: 20px 3% 5%;">
+                            <i class="fa fa-eye" aria-hidden="true"></i>2967831
+                            <i style="margin-left: 15%;" class="fa fa-download" aria-hidden="true"></i>6531
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+   <div class="footer">
+    <button>Chọn ngay mục tiêu của bạn</button>
+    <div class="nhom" >
+        <div class="pt">
+            <img src="anh/logo.png" alt="" width="70" height="auto">
+            <div style="margin-top: 20px;">Học viện đào tạo từ xa lâu đời nhất ở Hoa Kỳ</div>
+            <div style="margin-top: 20px;">Mã số doanh nghiệp: 010986666</div>
+            <div style="margin-top: 20px;">Địa chỉ: Số nhà 20 Ngách 234/35 Đường Hoàng Quốc Việt,
+                Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam</div>
+        </div>
+        <div class="pt">
+            <div class="dt">
+                <h3>VỀ FAST LEARN</h3><br>
+                <a href="#about"><p>Giới thiệu</p></a><br>
+                <a href="#"><p>Tuyển dụng</p></a><br>
+                <br>
+                <h3 style="margin-bottom: 10px;">KẾT NỐI VỚI CHÚNG TÔI</h3><br>
+                <span><a href="#"><i style="color:#0765FF; font-size: 28px;" class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
+                <span><a href="#"><i style="color:#9A3E6A;font-size: 28px;" class="fa fa-envelope" aria-hidden="true"></i></a></span>
+            </div>
+            <div class="dt">
+                <h3>THÔNG TIN</h3><br>
+                <a href="#about"><p>Điều kiện giao dịch</p></a><br>
+                <a href="#"><p>Chính sách thanh toán</p></a><br>
+                <a href="#"><p>Bảo vệ thông tin</p></a>
+                
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
